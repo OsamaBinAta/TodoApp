@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <title>TO-DO-APP</title>
+  </head>
+  <body>
+    <div class="supercontainer">
+      <div class="container">
+        <div class="header">
+          <p>TODO</p>
+          <img src="icon-moon.svg" alt="" />
+        </div>
+        <div class="addbar">
+          <div><img src="" alt="" /></div>
+          <input type="text" placeholder="Create a new todo.." />
+        </div>
+        <div class="todolist">
+           <div class="item" draggable="true">
+            <div class="check checked"><img class="tick" src="icon-check.svg" alt="" /></div>
+            <p>Complete online JavaScript course</p>
+            <img class="cross" src="icon-cross.svg" alt="" />
+          </div>
+          <div class="item" draggable="true">
+            <div class="check"><img class="tick" src="" alt="" /></div>
+            <p>Jog around the park 3x</p>
+            <img class="cross" src="icon-cross.svg" alt="" />
+          </div>
+          <div class="item" draggable="true">
+            <div class="check"><img class="tick" src="" alt="" /></div>
+            <p>10 minutes meditation</p>
+            <img class="cross" src="icon-cross.svg" alt="" />
+          </div>
+          <div class="item" draggable="true">
+            <div class="check"><img class="tick" src="" alt="" /></div>
+            <p>Complete Todo App on Frontend Mentor</p>
+            <img class="cross" src="icon-cross.svg" alt="" />
+          </div>
+          <div class="itemleft">
+            <p>4 items left</p>
+            <p>Clear Completed</p>
+          </div>
+        </div>
+        <div class="statusbar">
+          <p class="blue">All</p>
+          <p>Active</p>
+          <p>Completed</p>
+        </div>
+        <div class="ins">
+          <p>Drag and drop to reorder list</p>
+        </div>
+      </div>
+      <div class="credits">
+        <div>Challenge by <a href="https://www.frontendmentor.io/">Frontend Mentor.</div></a>
+          <div>Coded by <a href="https://github.com/OsamaBinAta">Osama Bin Ata</a>.</div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+@media (min-width: 800px) {
+  .supercontainer {
+    background-image: url("bg-desktop-light.jpg");
+  }
+  .dark .supercontainer {
+    background-image: url("bg-desktop-dark.jpg");
+  }
+  .container {
+    margin-block: 5.5%;
+    margin-inline: 33%;
+  }
+  .addbar {
+    height: 4rem;
+  }
+  .addbar input::placeholder {
+    font-size: 0.8rem;
+  }
+  .header p {
+    font-size: 2.5rem;
+  }
+  .header img {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .item {
+    height: 4rem;
+  }
+  .item p {
+    font-size: 0.9rem;
+  }
+  .todolist {
+    max-height: 20.2rem;
+  }
+  .itemleft .statusbar .blue {
+    color: hsl(220, 98%, 61%);
+  }
+  .itemleft p {
+    font-size: 0.9rem;
+  }
+  .check:hover {
+    border-color: hsl(220, 98%, 61%);
+    cursor: pointer;
+  }
+  .itemleft > p:nth-child(3):hover {
+    color: hsl(235, 19%, 35%);
+    cursor: pointer;
+  }
+  .statusbar p:hover {
+    color: hsl(235, 19%, 35%);
+    cursor: pointer;
+  }
+  .dark .itemleft > p:nth-child(3):hover {
+    color: hsl(236, 33%, 92%);
+    cursor: pointer;
+  }
+  .dark .statusbar p:hover {
+    color: hsl(236, 33%, 92%);
+    cursor: pointer;
+  }
+  .dark .statusbar > p.blue:hover {
+    color: hsl(220, 98%, 61%) !important;
+    cursor: auto;
+  }
+  .statusbar > p.blue:hover {
+    color: hsl(220, 98%, 61%) !important;
+    cursor: auto;
+  }
+  .statusbar {
+    width: auto;
+    margin: 0;
+  }
+}
