@@ -117,6 +117,7 @@
 }
 .item:has(.checked) p {
   color: hsl(233, 11%, 84%);
+  text-decoration: line-through;
 }
 .check {
   display: flex;
